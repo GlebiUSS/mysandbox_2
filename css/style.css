@@ -1,0 +1,40 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/** $main-color: #1eacc7 */
+/** $second-color: #ff5656 **/
+/** =btn_hover
+	&:hover
+		background-image: none
+		background-color: $main-color
+ **/
+header {
+  height: 70px;
+  background-color: #000000;
+}
+
+.nav-bar {
+  padding-left: 30px;
+  padding-top: 15px;
+}
+
+.promo_content {
+  min-height: 556px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 70px;
+}
+
+.promo_card {
+  margin: 10px 15px 10px 15px;
+}
